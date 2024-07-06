@@ -1,8 +1,8 @@
 
-import ProgramTable from "./Table"
+import ProgramTable from "../Table"
 import { MdOutlineToggleOn } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
-import ReferBtn from "./ReferBtn";
+import ReferBtn from "../ReferBtn";
 
 const Benefits = () => {
   return (

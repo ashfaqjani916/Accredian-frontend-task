@@ -1,4 +1,4 @@
-import ReferBtn from "./ReferBtn"
+import ReferBtn from "../ReferBtn"
 import { MdPersonAddAlt1 } from "react-icons/md";
 import { FaClipboardList } from "react-icons/fa";
 import { GiWallet } from "react-icons/gi";

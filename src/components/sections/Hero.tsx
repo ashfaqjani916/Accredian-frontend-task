@@ -1,6 +1,6 @@
 
-import HeroBanner from "./HeroBanner"
-import Menu from "./Menu"
+import HeroBanner from "../HeroBanner"
+import Menu from "../Menu"
 
 
 

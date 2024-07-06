@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Refer from './Refer';
+import Refer from './sections/Refer';
 
 const ReferBtn = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); // Modal visibility state
