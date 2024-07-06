@@ -1,13 +1,14 @@
 
 import './App.css'
-import Landing from './components/pages/Landing'
+
+import Refer from './components/pages/Refer'
 
 function App() {
 
 
   return (
     <>
-      <Landing />
+      <Refer />
     </>
   )
 }
