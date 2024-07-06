@@ -11,7 +11,7 @@ const Refer = ({ isOpen, onClose }: any) => {
 
   const onSubmitHandle = async (event: any) => {
     event.preventDefault();
-
+    handleCloseModal();
     const emailData = {
       friendEmail: email,
     };
