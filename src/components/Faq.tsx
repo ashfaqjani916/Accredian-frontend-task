@@ -1,32 +1,27 @@
 
 
 const FAQ = () => {
-  return (
-    <div className="max-w-4xl mx-auto p-4">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Frequently Asked <span className="text-blue-600">Questions</span></h2>
-      <div className="flex">
-        <div className="w-1/3">
-          <button className="w-full p-4 text-left bg-blue-100 text-blue-600 border border-gray-300">Eligibility</button>
-          <button className="w-full p-4 text-left bg-gray-100 text-gray-600 border border-gray-300">How To Use?</button>
-          <button className="w-full p-4 text-left bg-gray-100 text-gray-600 border border-gray-300">Terms & Conditions</button>
-        </div>
-        <div className="w-2/3 p-4">
-          <div className="mb-4">
-            <h3 className="text-blue-600 cursor-pointer">
-              Do I need to have prior Product Management and Project Management experience to enroll in the program?
-            </h3>
-            <p className="mt-2 text-gray-600">
-              No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work.
-            </p>
+  return (<>
+    <div className="w-full flex  justify-center">
+      <div className="flex flex-col w-3/4 h-[500px] justify-center items-center ">
+        <h1 className="text-2xl">Frequently Asked <span className="text-[#1A73E8]">Questions</span></h1>
+        <div className="flex  items-center justify-center ">
+          <div className="flex flex-col">
+            <div className="flex items-center gap-1 mb-5 w-full justify-end pr-24 text-gray-700"><button className="flex items-center text-sm w-44 text-[#1A73E8] gap-1 shadow-lg rounded-md py-4  justify-center" >Eligibility</button></div>
+            <div className="flex items-center gap-1 mb-5 w-full justify-end pr-24 text-gray-700"><button className="flex items-center text-sm w-44 gap-1 border-2 rounded-md py-4  justify-center" >How to Use</button></div>
+            <div className="flex items-center gap-1 mb-5 w-full justify-end pr-24 text-gray-700"><button className="flex items-center text-sm w-44 gap-1 border-2 rounded-md py-4 justify-center" >Terms & Conditions </button></div>
           </div>
           <div>
-            <h3 className="text-gray-800 cursor-pointer">
-              What is the minimum system configuration required?
-            </h3>
+            <p className="text-[#1A73E8] mb-3 ">Do I need to have prior Product Management and Project Management experience to enroll in the program?</p>
+            <p className="font-light mb-3 ">No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it
+              suitable for individuals from any field of work.</p>
+            <p className="">What is the minimum system configuration required?</p>
           </div>
         </div>
       </div>
     </div>
+    <img src="/banner.png" className="w-4/5 ml-44" />
+  </>
   );
 };
 
