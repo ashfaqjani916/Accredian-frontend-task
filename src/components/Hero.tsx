@@ -1,5 +1,7 @@
+
 import HeroBanner from "./HeroBanner"
 import Menu from "./Menu"
+
 
 
 const Hero = () => {
