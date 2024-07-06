@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
 
 
-      <nav className="bg-white fixed w-full z-20 text-sm top-12 start-0  ">
+      <nav className=" mt-12 bg-white  w-full z-20 text-sm top-12 start-0  ">
         <div className="max-w-screen-xl flex flex-wrap items-center  mx-auto p-4">
 
           <div className="flex items-center space-x-3 rtl:space-x-reverse mr-56">
@@ -17,7 +17,7 @@ const Navbar = () => {
           </div>
 
 
-          <div className="flex md:order-2 space-x-3 ml-10 md:space-x-0 rtl:space-x-reverse">
+          <div className=" flex md:flex  md:order-2 space-x-3 ml-10 md:space-x-0 rtl:space-x-reverse">
             <button type="button" className="text-white  bg-gray-400 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 mr-5 text-center  dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
 
             <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Try for Free</button>
