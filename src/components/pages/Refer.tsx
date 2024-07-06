@@ -1,6 +1,7 @@
 import Banner from "../Banner"
 import Benefits from "../Benefits"
 import FAQ from "../Faq"
+import Footer from "../Footer"
 import Hero from "../Hero"
 import HowtoRefer from "../HowtoRefer"
 import Navbar from "../Navbar"
@@ -14,6 +15,7 @@ const Refer = () => {
       <HowtoRefer />
       <Benefits />
       <FAQ />
+      <Footer />
     </>
   )
 }

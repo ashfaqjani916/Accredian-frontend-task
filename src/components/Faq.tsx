@@ -20,7 +20,7 @@ const FAQ = () => {
         </div>
       </div>
     </div>
-    <img src="/banner.png" className="w-4/5 ml-44" />
+    <img src="/banner.png" className="w-4/5 ml-44 mb-20" />
   </>
   );
 };
